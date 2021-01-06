@@ -1,0 +1,2 @@
+data = [{"Name": "ted", "test" : 1, "docs" : True},{"Name": "Walter blanco"}]
+[(print("\nItem: {}\n{}".format(x, "=" * 24)), [print("{}: {}".format(k,v)) for k,v in data[x].items()]) for x in range(len(data))]
